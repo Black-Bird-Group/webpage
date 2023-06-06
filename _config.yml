@@ -1,14 +1,21 @@
 # Site settings
 title: My Jekyll Website
 description: A simple Jekyll website
-baseurl: ""
+baseurl: "/"
 url: "http://localhost:4000"
+
+
+author:
+  name: larstila
+
+description: "OSINT community in Finland: Black Bird Group"
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude files and folders from the build process
 exclude:
@@ -20,4 +27,6 @@ exclude:
 
 # Custom variables
 year: 2023
-author: Leila Arstila
+
+sass:
+  enabled: true
