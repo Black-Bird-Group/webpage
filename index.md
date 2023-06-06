@@ -10,5 +10,5 @@ This is the home page of my Jekyll website. Feel free to explore and learn more 
 ## Latest Blog Posts
 
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
+- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}, Author {{post.author}}
 {% endfor %}

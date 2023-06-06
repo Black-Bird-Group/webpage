@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Welcome to Black Bird Group Blog
+title: First Black Bird Group Blog
 date: 2023-06-01
+author: Leila Arstila
 ---
 
-# Welcome to Black Bird Group Blog
+# Title
 
 This is my first blog post. Stay tuned for more!
